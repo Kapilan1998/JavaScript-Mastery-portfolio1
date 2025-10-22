@@ -1,11 +1,10 @@
+import Hero from "./components/sections/Hero.jsx"
 
 const App = () => {
   return (
-    <main>
-    <div>
-      <h1 className="text-3xl underline">welcome to my 3D portfolio</h1>
-    </div>
-    </main>
+    <>
+<Hero />
+    </>
   )
 }
 
