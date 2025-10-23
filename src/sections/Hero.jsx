@@ -1,6 +1,6 @@
 import React from 'react'
-import { words } from '../../constants'
-import Button from '../Button'
+import { words } from '../constants'
+import Button from '../components/Button'
 
 const Hero = () => {
   return (
@@ -15,7 +15,7 @@ const Hero = () => {
           <div className="flex flex-col gap-7">
             <div className="hero-text">
               <h1>Shapping <span className='slide'>
-                <span className='wra pper'>
+                <span className='wrapper'>
                   {words.map((word) => (
                     <span key={word.text} className='flex items-center md:gap-3 gap-1 pb-2'>
                       <img src={word.imgPath} alt={word.text} className='xl:size-12 md:size-10 size-7 md:p-2 p-1 rounded-full bg-white-50' />
@@ -36,6 +36,9 @@ const Hero = () => {
             text="See my work"/>
           </div>
         </header>
+
+        {/* Right side Hero content */}
+        
       </div>
     </section>
   )
