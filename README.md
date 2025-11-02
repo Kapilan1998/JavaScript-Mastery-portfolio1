@@ -12,7 +12,9 @@ npm install gsap @gsap/react three @react-three/fiber @react-three/drei @react-t
 npm install tailwindcss @tailwindcss/vite
 npm i react-responsive        - check which device user accessing, by that limiting some annimations
 cd .\public\models\     then execute    'npx gltfjsx optimized-room.glb'   -> to convert glb file to jsx file for implememtation
+npm install react-countup
+
 
 for 3d models search in "sketchfab" website
 
-start from 1.09.09
+start from 1.34.00
