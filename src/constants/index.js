@@ -245,24 +245,24 @@ const testimonials = [
 
 const socialImgs = [
   {
-    name: "insta",
-    url: "https://www.instagram.com/",
-    imgPath: "/images/insta.png",
+    name: "linkedin",
+    url: "https://www.linkedin.com/in/sriranjan-kapilan-4772351bb/",
+    imgPath: "/images/linkedin.png",
   },
   {
     name: "fb",
-    url: "https://www.facebook.com/",
+    url: "https://www.facebook.com/profile.php?id=100072743680662",
     imgPath: "/images/fb.png",
   },
   {
-    name: "x",
-    url: "https://www.x.com/",
-    imgPath: "/images/x.png",
+    name: "medium",
+    url: "https://medium.com/@sriranjankapilan",
+    imgPath: "/images/medium.png",
   },
   {
-    name: "linkedin",
-    url: "https://www.linkedin.com/",
-    imgPath: "/images/linkedin.png",
+    name: "github",
+    url: "https://github.com/Kapilan1998",
+    imgPath: "/images/git-hub.png",
   },
 ];
 
